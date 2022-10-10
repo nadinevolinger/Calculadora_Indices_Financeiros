@@ -9,7 +9,7 @@
 
 <h4>:open_file_folder: Sobre o Projeto </h4>
 
-<p> Estilização (front-end) do projeto Calculadora de Índices Financeiros, que tem como finalidade ajudar na automatização da validação de cálculos de índices financeiros.
+<p> Estilização (front-end) do projeto Calculadora de Índices Financeiros, que tem como finalidade ajudar na validação da automatização de cálculos de índices financeiros.
 </p>
   
   
