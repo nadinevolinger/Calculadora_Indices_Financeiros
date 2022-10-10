@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    gap: 4rem;
+    padding-left: 10%;
+}
+
+.shape {
+    background: linear-gradient(#0b398d, #1046aa,#382baf,#562cca);
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(5% 0, 100% 100%, 100% 0);
+    z-index: -1;
+}
+
+
+.title {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 72px;
+}
+
+
+.img {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    left: 88%;
+    top: 25%;
+}
+
+button {
+    cursor: pointer; 
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.calculadora {
+    width: 220px;
+    height: 60px;
+    border: none;
+    background-color:#fa254c;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 0 #c41535;
+    transition: ease-in-out 0.5s;
+    outline: none;    
+}
+
+.calculadora_style {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.calculadora:hover {
+    background-color: #c41535;
+    color: #ffffff;
+    transition: background-color .5s;
+}
+
+.info {
+    width: 220px;
+    height: 60px;
+    border: none;
+    background-color:#fa254c;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #c41535;
+    transition: ease-in-out 0.5s;
+    outline: none;
+}
+
+.info_style {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.info:hover {
+    background-color:#c41535;
+    color: #ffffff;
+    transition: background-color .5s;
+}
+

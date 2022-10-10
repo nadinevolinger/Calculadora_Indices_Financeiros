@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#0b398d, #1046aa,#382baf,#562cca);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 40%; 
+    height: 85%;
+    border: solid 2px white;
+    border-radius: 0.5em;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.square {
+    min-width: 8rem;
+    width: fit-content;
+    max-width: 80%;
+    height: 8rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cfdefa;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.square:hover {
+    border-color: #1b0085;
+}
+
+button {
+    cursor: pointer; 
+}
+
+.voltar {
+    width: 63%;
+    height: 2.8rem;
+    border: none;
+    background-color:#ea353e;
+    border-radius: 0.3rem;
+    box-shadow: inset 0 0 0 0 0 #ea353e;
+    transition: ease-in-out 0.5s;
+    outline: none;
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+.voltar_style {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color:#ffffff;
+}
+
+.voltar:hover {
+    background-color:#bb121a;
+    color: #ffffff;
+    transition: background-color .5s;
+}

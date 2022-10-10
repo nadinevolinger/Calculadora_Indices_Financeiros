@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body id="body">
+
+    <section class="container">
+            <div  class="formulario">
+                <form action="" class="form">
+                    
+                    <div class="input">
+                    <label for="quantity">Índice na Data Atual</label>
+                    <input type="number" id="quantity" required name="quantity" step="any">
+                    </div>
+                    
+                    <div class="input">
+                    <label class="quantity" for="date">Índice na Data Base CM</label>
+                    <input type="number" id="quantity" required name="quantity" step="any">
+                    </div>
+                    
+                    <div class="input"> 
+                    <label for="quantity">Valor Objeto</label>
+                    <input type="number" id="valor" required name="quantity" step="any">
+                    </div>
+                    
+                    <div class="buttons">
+                        <button class="calcular" onClick="location.href='/calculadoraProJuris/resultado/index.html'">
+                            <a class="calcular_style">calcular</a>
+                        </button>
+                        <button class="voltar" onClick="location.href='/calculadoraProJuris/landingPage/index.html'">
+                            <a class="voltar_style">voltar</a>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+</body>
+</html>
